@@ -1,7 +1,7 @@
 import React from "react";
 import "@fontsource/noto-sans-devanagari";
 
-export default function Chalisa() {
+function Chalisa() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-orange-900 via-red-900 to-black text-white flex flex-col items-center p-8 overflow-y-auto">
       
@@ -64,3 +64,5 @@ export default function Chalisa() {
     </div>
   );
 }
+
+export default Chalisa;
